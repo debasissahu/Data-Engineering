@@ -1,1 +1,1 @@
-
+# Single node cluster configuration
