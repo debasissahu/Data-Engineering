@@ -1,1 +1,6 @@
-dsdsd
+----------------------------
+-------AWS CLI COMMANDS-----
+----------------------------
+
+
+---AWS CLI CONFIGURATION IN WINDOWS MACHINE---
