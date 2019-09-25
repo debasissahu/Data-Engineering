@@ -5,7 +5,7 @@ aws --version
 where aws
 
 
-Create Vault:\n
+Create Vault:
 aws glacier create-vault --vault-name my-vault --account-id -
 
 Delete Vault:
