@@ -1,6 +1,10 @@
 ## Administration System
 
 ### See the all user details
+Select * from user details;
+
+
+
 
 ### Add new user
 
