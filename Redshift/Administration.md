@@ -36,7 +36,7 @@ ALTER GROUP read_group drop USER usr_debasis;
 select * from pg_group;
 
 
-##Table creation and Data Export/Import
+## Table creation and Data Export/Import
 
 ### Create table
 create table users(
