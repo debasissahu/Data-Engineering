@@ -62,11 +62,6 @@ FROM 's3://bucket/folder1/folder2/'
 IAM_ROLE 'aws_iam_role=<iam-role-arn>'
 FORMAT AS PARQUET;
 
-### Provide Access Permission
-
-
-### Public access Permission (Read Only)
-
 ### See the all public table from the database
 SELECT DISTINCT tablename FROM pg_table_def WHERE  schemaname ='public';
 
