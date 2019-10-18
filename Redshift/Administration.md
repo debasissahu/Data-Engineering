@@ -12,7 +12,6 @@ create user usr_debasis with password '123456789';
 ### Alter User
 alter user usr_debasis with password '123456789';
 
---------------------------------------------------------------------------
 
 ## Privelage and permission
 ### Create Group     
@@ -36,7 +35,9 @@ ALTER GROUP read_group drop USER usr_debasis;
 ### Select all groups
 select * from pg_group;
 
----------------------------------------------------------------------------
+
+##Table creation and Data Export/Import
+
 ### Create table
 create table users(
 userid integer not null distkey sortkey,
