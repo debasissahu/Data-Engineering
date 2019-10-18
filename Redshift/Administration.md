@@ -3,9 +3,26 @@
 ### See the all user details
 select * from pg_user_info;
 
-### Add new user
+### Create super user
+create user adminuser createuser password '1234Admin';
+
+### Create New User
 create user usr_debasis with password '123456789';
 
+### Alter User
+alter user usr_debasis with password '123456789';
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
 ### Create table
 create table users(
 userid integer not null distkey sortkey,
