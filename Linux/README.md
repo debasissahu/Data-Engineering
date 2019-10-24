@@ -1,1 +1,0 @@
-# Basic Introduction about LINUX
