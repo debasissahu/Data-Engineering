@@ -1,7 +1,7 @@
 ## POSTGRES SQL QUERY
 -------------------------------------------
 
-1. String matching percentage
+###1. String matching percentage
 
 
 
