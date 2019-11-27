@@ -6,3 +6,5 @@ SELECT REGEXP_REPLACE('ABC12345xyz','[[:digit:]]','','g');
 
 ### Keep only numbers
 SELECT regexp_replace('88Well- Th700156is Did-Not work&*($%%)_', '[^0-9]+', ' ','g')
+
+### Extract PIN code from address
