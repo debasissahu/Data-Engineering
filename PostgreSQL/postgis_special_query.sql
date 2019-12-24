@@ -27,3 +27,9 @@ ALTER TABLE new_tehsil_gis_upload ALTER COLUMN geom TYPE geometry(MultiPolygon,4
 
 --Convert multi pointo to point 
 Alter table guj_pollingbooth_not_matched ALTER COLUMN geom TYPE geometry(Point,4326) USING ST_GeometryN(geom, 1);
+
+--invalid geom view
+select ward, ST_IsValid(geom) As bad_poly FROM chilis_hyd_revised_wards;
+
+SELECT ward, reason(ST_IsValidDetail(geom)), ST_AsText(location(ST_IsValidDetail(geom))) as location 
+FROM chilis_hyd_revised_wards;
