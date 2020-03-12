@@ -33,3 +33,6 @@ select ward, ST_IsValid(geom) As bad_poly FROM chilis_hyd_revised_wards;
 
 SELECT ward, reason(ST_IsValidDetail(geom)), ST_AsText(location(ST_IsValidDetail(geom))) as location 
 FROM chilis_hyd_revised_wards;
+
+--Polygon centroid
+Select ST_SetSRID(ST_Centroid(geom),4326) from table name;
